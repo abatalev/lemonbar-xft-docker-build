@@ -1,0 +1,4 @@
+FROM archlinux
+RUN pacman --noconfirm -Syu
+RUN pacman --noconfirm -S git gcc make
+RUN pacman --noconfirm -Syu libxcb libx11 libxft
